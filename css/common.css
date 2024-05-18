@@ -97,9 +97,9 @@ button {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
-  margin-top: 16px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  border: 1px solid #808080;
 }
 
 button:hover {
@@ -137,4 +137,27 @@ form {
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button[data-destroy] {
+  background: #ff4e4e;
+}
+
+button[data-destroy]:hover {
+  background: #ff7070;
+}
+
+#controls,
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  margin-bottom: 16px;
+
+  input[type="number"] {
+    width: 150px;
+  }
 }
