@@ -34,6 +34,7 @@ body {
       margin: 0;
       margin-bottom: 16px;
     }
+
     ul {
       display: flex;
       flex-direction: column;
